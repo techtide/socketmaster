@@ -1,0 +1,452 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "include/abseil-cpp/absl/synchronization/libabsl_synchronization.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"absl_cc_library",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"include/abseil-cpp/CMake/AbseilHelpers.cmake",
+			"include/abseil-cpp/absl/synchronization/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 259,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 261,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 278,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 260,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wconversion-null"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Woverlength-strings"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wunused-local-typedefs"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wunused-result"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wvarargs"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DNOMINMAX"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/gotcha17/workspace/socketmaster/include/abseil-cpp"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "absl_log_severity::@cdf8422b93c351e299f8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_raw_logging_internal::@cdf8422b93c351e299f8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_spinlock_wait::@cdf8422b93c351e299f8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_malloc_internal::@cdf8422b93c351e299f8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_base::@cdf8422b93c351e299f8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_throw_delegate::@cdf8422b93c351e299f8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_stacktrace::@01cff6ff029ea7aaa6f9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_symbolize::@01cff6ff029ea7aaa6f9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_debugging_internal::@01cff6ff029ea7aaa6f9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_demangle_internal::@01cff6ff029ea7aaa6f9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_int128::@234513f2adceda104273"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_string_view::@21de62c0c6ff98319cf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_strings::@21de62c0c6ff98319cf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_strings_internal::@21de62c0c6ff98319cf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_graphcycles_internal::@c31e8704b1f49cc9bd61"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_kernel_timeout_internal::@c31e8704b1f49cc9bd61"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_time::@32083a47c0443dedfae1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_civil_time::@32083a47c0443dedfae1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_time_zone::@32083a47c0443dedfae1"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil"
+	},
+	"id" : "absl_synchronization::@c31e8704b1f49cc9bd61",
+	"name" : "absl_synchronization",
+	"nameOnDisk" : "libabsl_synchronization.a",
+	"paths" : 
+	{
+		"build" : "include/abseil-cpp/absl/synchronization",
+		"source" : "include/abseil-cpp/absl/synchronization"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "include/abseil-cpp/absl/synchronization/barrier.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "include/abseil-cpp/absl/synchronization/blocking_counter.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/create_thread_identity.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/futex_waiter.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/per_thread_sem.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/pthread_waiter.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/sem_waiter.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/stdcpp_waiter.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/waiter_base.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/win32_waiter.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "include/abseil-cpp/absl/synchronization/notification.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "include/abseil-cpp/absl/synchronization/mutex.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/barrier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/blocking_counter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/create_thread_identity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/futex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/futex_waiter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/per_thread_sem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/pthread_waiter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/sem_waiter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/stdcpp_waiter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/waiter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/waiter_base.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/internal/win32_waiter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/mutex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "include/abseil-cpp/absl/synchronization/notification.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

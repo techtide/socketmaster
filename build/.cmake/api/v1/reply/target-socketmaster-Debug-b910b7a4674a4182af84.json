@@ -1,0 +1,533 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "socketmaster"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_SYSTEM_DYN_LINK"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/gotcha17/workspace/socketmaster/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/gotcha17/workspace/socketmaster/include/abseil-cpp"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "absl_log_severity::@cdf8422b93c351e299f8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_raw_logging_internal::@cdf8422b93c351e299f8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_spinlock_wait::@cdf8422b93c351e299f8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_malloc_internal::@cdf8422b93c351e299f8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_base::@cdf8422b93c351e299f8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_throw_delegate::@cdf8422b93c351e299f8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_hashtablez_sampler::@8158b775ce9a9376dc57"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_raw_hash_set::@8158b775ce9a9376dc57"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_crc_cpu_detect::@df05e86d20f914f34ccd"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_crc_internal::@df05e86d20f914f34ccd"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_crc32c::@df05e86d20f914f34ccd"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_crc_cord_state::@df05e86d20f914f34ccd"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_stacktrace::@01cff6ff029ea7aaa6f9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_symbolize::@01cff6ff029ea7aaa6f9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_debugging_internal::@01cff6ff029ea7aaa6f9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_demangle_internal::@01cff6ff029ea7aaa6f9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_hash::@0e9d2a5cd2fd082a2935"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_city::@0e9d2a5cd2fd082a2935"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_low_level_hash::@0e9d2a5cd2fd082a2935"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_int128::@234513f2adceda104273"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_exponential_biased::@00aa82c91a192fbe249f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_string_view::@21de62c0c6ff98319cf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_strings::@21de62c0c6ff98319cf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_strings_internal::@21de62c0c6ff98319cf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_str_format_internal::@21de62c0c6ff98319cf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_cord_internal::@21de62c0c6ff98319cf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_cordz_functions::@21de62c0c6ff98319cf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_cordz_handle::@21de62c0c6ff98319cf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_cordz_info::@21de62c0c6ff98319cf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_cord::@21de62c0c6ff98319cf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_graphcycles_internal::@c31e8704b1f49cc9bd61"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_kernel_timeout_internal::@c31e8704b1f49cc9bd61"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_synchronization::@c31e8704b1f49cc9bd61"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_time::@32083a47c0443dedfae1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_civil_time::@32083a47c0443dedfae1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_time_zone::@32083a47c0443dedfae1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_bad_optional_access::@8a05a2f4a7b6339b7eba"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_bad_variant_access::@8a05a2f4a7b6339b7eba"
+		}
+	],
+	"id" : "socketmaster::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "include/abseil-cpp/absl/base/libabsl_base.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "include/abseil-cpp/absl/strings/libabsl_strings.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "include/abseil-cpp/absl/synchronization/libabsl_synchronization.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/strings/libabsl_cord.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/strings/libabsl_cordz_info.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/strings/libabsl_cord_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/strings/libabsl_cordz_functions.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/strings/libabsl_cordz_handle.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/crc/libabsl_crc_cord_state.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/crc/libabsl_crc32c.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/crc/libabsl_crc_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/crc/libabsl_crc_cpu_detect.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/strings/libabsl_str_format_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/container/libabsl_raw_hash_set.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/hash/libabsl_hash.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/hash/libabsl_city.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/types/libabsl_bad_variant_access.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/hash/libabsl_low_level_hash.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/types/libabsl_bad_optional_access.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/container/libabsl_hashtablez_sampler.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/profiling/libabsl_exponential_biased.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "include/abseil-cpp/absl/synchronization/libabsl_synchronization.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/synchronization/libabsl_graphcycles_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/synchronization/libabsl_kernel_timeout_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/debugging/libabsl_stacktrace.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/debugging/libabsl_symbolize.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/base/libabsl_malloc_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/debugging/libabsl_debugging_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/debugging/libabsl_demangle_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/time/libabsl_time.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "include/abseil-cpp/absl/strings/libabsl_strings.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/strings/libabsl_strings_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/strings/libabsl_string_view.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "include/abseil-cpp/absl/base/libabsl_base.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/base/libabsl_spinlock_wait.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/base/libabsl_throw_delegate.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/base/libabsl_raw_logging_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/base/libabsl_log_severity.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/numeric/libabsl_int128.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/time/libabsl_civil_time.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "include/abseil-cpp/absl/time/libabsl_time_zone.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "socketmaster",
+	"nameOnDisk" : "socketmaster",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/server.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/session.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/port_manager.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/configuration.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/logger.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
