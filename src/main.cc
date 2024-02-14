@@ -3,7 +3,7 @@
 #include <boost/asio.hpp>
 #include "logger.h"
 #include "port_manager.h"
-#include "WebSocketServer.h"
+#include "server.h"
 #include "configuration.h"
 
 namespace po = boost::program_options;
