@@ -1,6 +1,6 @@
-# SocketMaster: the Robust and Scalable WebSocket Server
+# SocketMaster
 
-SocketMaster is a WebSocket server designed to provide a scalable and robust solution for managing multiple WebSocket endpoints efficiently. It introduces a unique architecture where clients connect to a single, scalable WebSocket endpoint using a unique socket name. SocketMaster then intelligently routes incoming connections to the appropriate WebSocket endpoint based on the provided socket name, enabling seamless communication between clients and endpoints.
+SocketMaster is a WebSocket server designed to provide a fast, scalable, and robust solution for managing multiple WebSocket endpoints efficiently. It introduces a unique architecture where clients connect to a single, scalable WebSocket endpoint using a unique socket name. SocketMaster then intelligently routes incoming connections to the appropriate WebSocket endpoint based on the provided socket name, enabling seamless communication between clients and endpoints.
 
 ## Key Features
 - Single, Self-healing WebSocket Endpoint: Consolidate multiple WebSocket endpoints into a single, scalable server instance. All this requires is setting up your application to perform one additional 'SocketMaster Handshake' in addition to the regular TCP and HTTP handshakes that are typically executed when a websocket connection is instated. 
