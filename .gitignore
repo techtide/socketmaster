@@ -44,4 +44,4 @@
 *.vsix
 
 # ignore build
-build
+build/
