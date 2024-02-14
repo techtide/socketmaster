@@ -42,3 +42,6 @@
 .history/
 # Built Visual Studio Code Extensions
 *.vsix
+
+# ignore build
+build
